@@ -1,0 +1,31 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+*.pyo
+*.pyd
+.env
+
+# Logs
+logs/
+logs/*.log
+*.log
+
+# IDE files
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+
+# IDE files
+.vscode/
+
+# Virtual environments
+venv/
+
+fine_tuned_bert_merged/model.safetensors

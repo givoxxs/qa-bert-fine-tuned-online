@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Answering</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Question Answering</h1>
+        <h2>Enter context and question to get the answer.</h2>
+        <form class="qa-form">
+            <div class="left-panel">
+                <textarea id="context" placeholder="Enter context here..."></textarea>
+            </div>
+            <div class="right-panel">
+                <input type="text" id="question" placeholder="Enter your question..." />
+                <button type="button" id="ask-button">Ask</button>
+                <button type="button" id="reload-button">Reload</button>
+                <div id="answer-container">
+                    <h3>Answer:</h3>
+                    <p id="answer">...</p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
