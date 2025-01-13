@@ -1,7 +1,8 @@
 # QA-BERT Fine-Tuned Project
 
 ## Mô tả
-Đây là repository cho dự án QA-BERT đã được fine-tuned. Để chạy dự án, bạn cần tải file model từ Google Drive và đặt vào thư mục `fine_tuned_bert_merged`.
+Đây là repository cho dự án QA-BERT đã được fine-tuned với bộ dữ liệu SQuAD_v2 nhằm hỗ trợ trả lời câu hỏi dựa trên thông tin cung cấp. 
+Để chạy dự án, bạn cần tải file model từ Google Drive và đặt vào thư mục `fine_tuned_bert_merged`.
 
 ## Hướng dẫn cài đặt
 
